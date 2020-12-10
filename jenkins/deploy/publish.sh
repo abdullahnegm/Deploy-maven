@@ -4,6 +4,6 @@ export IMAGE=$(sed -n "1p" /tmp/.auth)
 export TAG=$(sed -n "2p" /tmp/.auth)
 export PASS=$(sed -n "3p" /tmp/.auth)
 
-docker login -u respect1 -p $PASS
+docker login -u respect1 --password $PASS
 
 docker-compose up -d
