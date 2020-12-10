@@ -22,7 +22,7 @@ pipeline {
         
         stage('Test') { 
             steps {
-               sh './jenkins/test/mvn.sh mvn.sh'' 
+               sh './jenkins/test/mvn.sh mvn.sh' 
             }
             post {
 		always {
