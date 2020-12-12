@@ -6,4 +6,4 @@ export PASS=$(sed -n "3p" /tmp/.auth)
 
 docker login -u respect1 --password $PASS
 
-docker-compose up -d
+cd /tmp && docker-compose up -d
