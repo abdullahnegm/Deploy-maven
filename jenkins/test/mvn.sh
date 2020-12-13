@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+
 WORKSPACE=/home/jenkins/jenkins/jenkins-data/jenkins_home/workspace/pipe-maven
 
 
